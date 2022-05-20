@@ -1,0 +1,28 @@
+html,body,#app,.test,.el-container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.el-header {
+  background-color: #427fc5;
+  height: 100px !important;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.el-aside {
+  width: 250px !important;;
+  /* color: var(--el-text-color-primary); */
+  text-align: center;
+  height: calc(100vh - 100px);
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.el-main {
+  background-color: white;
+  color: var(--el-text-color-primary);
+  text-align: center;
+}
